@@ -8,8 +8,9 @@ function collectSameElements(collectionA, collectionB) {
           result.push(collectionA[i]);
         }
         else if{
-           j == collectionB.length;
-           j++;
+           if(j < collectionB.length){
+             j++;
+           }
         }else{
           break;
         }
