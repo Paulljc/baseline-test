@@ -6,15 +6,14 @@ function collectSameElements(collectionA, collectionB) {
       for(var j = 0, k = 0; ; k++){
         if(collectionB[j][k] === collectionA[i]){
           result.push(collectionA[i]);
+          continue;
         }
-        else if{
-           if(j < collectionB.length){
+        else if(j < collectionB.length){
              j++;
-           }
         }else{
           break;
         }
       }
     }
-    return result;
+  return result;
 }
